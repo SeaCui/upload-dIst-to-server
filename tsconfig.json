@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "target": "es2017",
+    "lib": ["ESNext", "DOM", "WebWorker"],
+    "esModuleInterop": true,
+    "strict": true,
+    "strictNullChecks": true,
+    "noImplicitAny": false,
+    "moduleResolution": "Node",
+    "resolveJsonModule": true,
+    "noUnusedLocals": false
+  },
+  "include": ["global.d.ts", "src/*.ts"]
+}
